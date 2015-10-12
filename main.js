@@ -3,7 +3,7 @@
 */
 var givenName;
 // Q: What does `givenName` equal right now?
-// A: Nothing
+// A: Nothing - Oops, I meant Undefined!!
 
 
 givenName = "Tim";
