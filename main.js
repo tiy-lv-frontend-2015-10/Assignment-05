@@ -64,4 +64,4 @@ instructorName = "Mike"
 
 // Final Statement
 var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
-Domingo is taking a class at the Iron Yard, my instructor\'s name is Mike
+Domingo is taking a class at the Iron Yard, my instructor's name is Mike

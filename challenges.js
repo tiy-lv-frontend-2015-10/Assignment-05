@@ -20,7 +20,7 @@ console.assert(twoPlusTwo === 4);
 // Challenge 1
 // in one line of js, subsitute "naps" for "maps"
 var tweeter = "I really like maps";
-
+	tweeter = "I really like naps";
 
 
 // Challenge 2
@@ -36,7 +36,9 @@ var tweeter = "I really like maps";
 // meeteem
 // TrickirT
 
-function isPalindrome(){}
+function isPalindrome(){
+	 
+}
 
 // tests
 
