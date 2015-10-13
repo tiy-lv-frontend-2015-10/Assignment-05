@@ -91,6 +91,8 @@ function letterCount(tester){
 
 			if (tester !== undefined) {
 
+					tester = tester.toLowerCase();
+
 					for (var i = 0; i < tester.length; i++) {
 						
 						var letter = tester.charAt(i);
