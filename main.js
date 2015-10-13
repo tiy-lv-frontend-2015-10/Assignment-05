@@ -3,22 +3,22 @@
 */
 var givenName;
 // Q: What does `givenName` equal right now?
-// A: A blank location in memory (= undefined)
+// A: An allocated address in memory (value = undefined)
 
 
 givenName = "Tim";
 // Q: What is `givenName` set to right now?
-// A: "Tim" (console would ouput Tim with no quotes). A string.
+// A: "Tim". (a string).
 
 
 givenName = "JD";
 // Q: What is `givenName` set to right now?
 // A: "JD"
-
+//for variable reassignment surgery, many people travel to Scandavia
 
 var greeting = "Hello, how are you?";
 // Q: What is `greeting` set to?
-// A: "Hello, how are you?" (string).
+// A: "Hello, how are you?" (a string).
 
 
 /*=========================================================
@@ -35,7 +35,7 @@ var math = high - low;
 
 math = high - "5";
 // Q: What is `math` set to?
-// A: 45 (typeof math returns 'number')
+// A: 45 (typeof(math) returns 'number')
 
 
 /* =========================================================
@@ -65,21 +65,24 @@ var instructorName = "Mike";
 var yourGender = "male";
 
 
-function fixThisSentence(gender) {
-	var posAdj = "";
+function fixThisSyntax(gender) {
+	var adjective = "";
 	if (gender === "male") {
-		posAdj = "his";
+		adjective = "his";
 	} else if (gender === "female") {
-		posAdj = "her";
+		adjective = "her";
 	} else {
-		posAdj = "Bender's"
+		adjective = "Artoo's"
 	}
-	return posAdj;
+	return adjective;
 }
 
-var fix = fixThisSentence(yourGender);
+var fix = fixThisSyntax(yourGender);
+// the expression now reads correctly.
 
 // Final Statement
 var statement = yourName + " is taking a class at The Iron Yard, " + fix + " instructor's name is " + instructorName;
+
+
 
 console.log(statement);
