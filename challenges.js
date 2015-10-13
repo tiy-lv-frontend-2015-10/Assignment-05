@@ -5,7 +5,7 @@
 // the function to make it work.
 
 function addNumbers(numberA, numberB) {
-    console.log(numberA + numberB);
+    return (numberA + numberB);
 }
 
 var twoPlusTwo = addNumbers(2, 2);
@@ -19,7 +19,7 @@ console.assert(twoPlusTwo === 4);
 
 // Challenge 1
 // in one line of js, subsitute "naps" for "maps"
-var tweeter = "I really like maps";
+var tweeter = "I really like naps";
 
 
 
