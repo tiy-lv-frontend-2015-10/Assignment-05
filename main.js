@@ -65,7 +65,8 @@ var instructorName = "Mike";
 // Answers Below:
 var yourName = "Kristie";
 var instructorName = "Mike";
-
+var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
+console.log(statement);
 
 // Final Statement
 var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
