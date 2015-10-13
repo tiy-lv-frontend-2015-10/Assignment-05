@@ -28,10 +28,10 @@ tweeter = "I really like naps";
 var tweeter = "I really like naps";
 
 //text replace -- global replacement
-var tweeter = text.replace (/maps/g, "naps");
+var tweeter = tweeter.replace (/maps/g, "naps");
 //text replace -- not global
 
-var tweeter = text.replace ("maps", "naps");
+var tweeter = tweeter.replace ("maps", "naps");
 
 
 // Challenge 2
