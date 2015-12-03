@@ -26,7 +26,7 @@ var greeting = "Hello, how are you?";
 */
 
 var high = 50;
-var low  = 10;
+var low = 10;
 
 
 var math = high - low;
@@ -49,8 +49,8 @@ var born = 1983;
 var today = 2015;
 
 // Answers Below:
-var age= today - born;
-var greeting= " Tim is " + age + " years old ";
+var age = today - born;
+var greeting = " Tim is " + age + " years old ";
 //"tim is " 32 "years old"
 
 

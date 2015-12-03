@@ -5,7 +5,7 @@
 // the function to make it work.
 
 function addNumbers(numberA, numberB) {
-    return (numberA + numberB);
+	return (numberA + numberB);
 }
 
 var twoPlusTwo = addNumbers(2, 2);
@@ -36,14 +36,14 @@ var tweeter = "I really like naps";
 // meeteem
 // TrickirT
 
-function isPalindrome(){}
+function isPalindrome() {}
 
 // tests
 
-console.assert( isPalindrome("tacocat") === true )
-console.assert( isPalindrome("Tacocat") === false )
-console.assert( isPalindrome("racecar") === true )
-console.assert( isPalindrome("cowboy") === false )
+console.assert(isPalindrome("tacocat") === true)
+console.assert(isPalindrome("Tacocat") === false)
+console.assert(isPalindrome("racecar") === true)
+console.assert(isPalindrome("cowboy") === false)
 
 
 
@@ -71,8 +71,8 @@ console.assert( isPalindrome("cowboy") === false )
 // letters should also be converted to lower
 // case when counting them.
 
-function letterCount(){
-    // ...
+function letterCount() {
+	// ...
 }
 
 // tests
