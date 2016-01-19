@@ -18,7 +18,7 @@ givenName = "JD";
 
 var greeting = "Hello, how are you?";
 // Q: What is `greeting` set to?
-// A:Undefined
+// A:"Hello , how are you?"
 
 
 /*=========================================================
