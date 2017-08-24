@@ -43,7 +43,7 @@ var born = 1983;
 var today = 2015;
 
 var age = today - born
-console.log(age);
+// console.log(age);
 
 // Answers Below:
 
@@ -60,4 +60,4 @@ instructorName = 'Mike'
 // Final Statement
 var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
 
-console.log(statement);
+// console.log(statement);

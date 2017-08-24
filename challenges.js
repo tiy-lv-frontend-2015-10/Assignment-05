@@ -4,13 +4,17 @@
 // twoPlusTwo gets set to `undefined`. Refactor
 // the function to make it work.
 function addNumbers(numberA, numberB) {
-  console.log(numberA + numberB);
+  var total = numberA + numberB;
+  return total
 }
 var twoPlusTwo = addNumbers(2, 2);
 console.assert(twoPlusTwo === 4);
 // Challenge 1
 // in one line of js, subsitute "naps" for "maps"
 var tweeter = "I really like maps";
+
+var res = tweeter.replace('maps', 'naps')
+console.log(res);
 // Challenge 2
 // Write a function isPalindrome(x)
 // that returns true if x is a palindrome,
@@ -23,7 +27,9 @@ var tweeter = "I really like maps";
 // dod
 // meeteem
 // TrickirT
-function isPalindrome() {}
+function isPalindrome(s, i) {
+  return (i = i || 0) < 0 || i >= s.length >> 1 || s[i] == s[s.length - 1 - i] && isPalindrome(s, ++i);
+}
 // tests
 console.assert(isPalindrome("tacocat") === true)
 console.assert(isPalindrome("Tacocat") === false)
@@ -50,9 +56,8 @@ console.assert(isPalindrome("cowboy") === false)
 // Note that the space is not counted. All
 // letters should also be converted to lower
 // case when counting them.
-function letterCount() {
-  // ...
-}
+
+function letterCount(string) {}
 // tests
 console.assert(letterCount("abcabcabcdefab c a oo ija ;a ;skmdals kn").b === 4)
 console.assert(letterCount().z === undefined)
